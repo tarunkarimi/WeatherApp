@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy2L1biLsv9jWeABtoQcKTFC9_rOz2tm2cw&s');
+    background-size: 100%;
+}
+.navbar{
+    text-align: center;
+    color: black;
+}
+.heading{
+    background-color: pink;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.details{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+.enter{
+    font-size: 20px;
+    padding: 4px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(237, 237, 106);
+    color: black;
+    font-weight: bold;
+    border-color: rgb(237, 237, 106);
+    border-radius: 4px;
+}
+.enter:hover{
+    background-color: yellow;
+}
+.info-title{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.info-data{
+    font-size: 12px;
+    color: black;
+}
+.info{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: none;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-top: 2px;
+}
