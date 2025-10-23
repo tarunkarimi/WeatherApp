@@ -10,5 +10,3 @@ cd WeatherApp
 ``` bash
 npm start
    
-
-   
